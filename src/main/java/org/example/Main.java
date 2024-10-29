@@ -1,22 +1,33 @@
 package org.example;
 
+import org.example.arrays.ArrayHigherNumber;
+import org.example.arrays.ReverseArray;
 import org.example.matrix.MatrixOperations;
 import org.example.matrix.enums.MatrixAction;
+import org.example.strings.Palindrome;
+import org.example.strings.ReverseString;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        System.out.printf("Hello and welcome!\n");
 
-        MatrixOperations matrixOperations = new MatrixOperations();
-        matrixOperations.operation(MatrixAction.SUM, matrixOperations.MATRIX);
+        /* MATRIX OPERATIONS */
+//        MatrixOperations matrixOperations = new MatrixOperations();
+//        matrixOperations.operation(MatrixAction.SUM, matrixOperations.MATRIX);
 
 
+        /* STRING CHALLENGES */
 //        ReverseString reverseString = new ReverseString();
 //        reverseString.reversedString();
+//        Palindrome palindrome = new Palindrome();
+//        palindrome.start();
+
+//        /* ARRAY CHALLENGES */
+//        ReverseArray reverseArray = new ReverseArray();
+//        reverseArray.reverseArray();
+        ArrayHigherNumber arrayHigherNumber = new ArrayHigherNumber();
+        arrayHigherNumber.start();
+
 
     }
 }
