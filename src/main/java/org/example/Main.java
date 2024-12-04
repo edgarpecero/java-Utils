@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.arrays.ArrayHigherNumber;
 import org.example.arrays.ReverseArray;
+import org.example.matrix.DiagonalDiff;
 import org.example.matrix.MatrixOperations;
 import org.example.matrix.enums.MatrixAction;
 import org.example.strings.Palindrome;
@@ -21,12 +22,13 @@ public class Main {
 //        reverseString.reversedString();
 //        Palindrome palindrome = new Palindrome();
 //        palindrome.start();
+        DiagonalDiff.diagonalDiff();
 
 //        /* ARRAY CHALLENGES */
 //        ReverseArray reverseArray = new ReverseArray();
 //        reverseArray.reverseArray();
-        ArrayHigherNumber arrayHigherNumber = new ArrayHigherNumber();
-        arrayHigherNumber.start();
+//        ArrayHigherNumber arrayHigherNumber = new ArrayHigherNumber();
+//        arrayHigherNumber.start();
 
 
     }
